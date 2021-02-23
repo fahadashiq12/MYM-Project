@@ -52,16 +52,14 @@ export default {
 
 <style>
 #app 
-
 {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+   font-family: 'Poppins';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 0px;
+   text-align: center;
+   color: #1F4F46;
+   margin-top: 0px;
 }
-
 
 .img_style
 {
@@ -74,6 +72,117 @@ max-height: 100%;
 max-width: 100%;
 max-height: 100%;
 }
+/* vid  */
+.video_style
+{
+  margin-top: 70px;
+}
 
+/* Then style the iframe to fit in the container div with full height and width */
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    /* height: 100%; */
+    border-radius: 25px;
+    height: 322px;
+}
+
+.video_box {
+    border: 10px Solid #1F4F46;
+    border-radius: 35px;
+    height: 340px;
+    width: 1000px;
+    margin: 100px auto;
+}
+
+.image
+{
+height: 100vh;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover; 
+}
+
+.iframe_style {
+    position: relative;
+    overflow: hidden;
+    width: 100.2%;
+    padding-top: 56.25%;
+    margin-left: -1px;
+}
+
+.txt_style
+{
+
+font-weight: bolder;
+
+}
+
+.video_box:hover
+{
+ box-shadow: 10px 2px 50px #E6FFFC;
+}
+
+.tool_image {
+    height: 100vh;
+    width: 100%;
+    object-position: left;
+    object-fit: cover;
+}
+
+@media (min-width:1200px) and (max-width: 2000px) 
+{
+.style 
+{
+    padding: 0px !important;
+}
+.tool_image 
+{
+    height: 100vh;
+    width: 100%;
+    object-position: left;
+    object-fit: cover;
+}
+.div_style
+{
+
+    margin-top: 120px !important;
+}
+}
+
+@media (min-width:992px) and (max-width: 1199px) 
+{
+  .feature_style
+{
+  margin-top: 80px;
+  padding-bottom: 80px;
+}
+
+
+}
+
+@media (min-width:768px) and (max-width: 991px) 
+{
+
+
+}
+
+@media (min-width:576px) and (max-width: 767px) 
+{
+
+}
+
+
+@media (min-width:320px) and (max-width: 575px) 
+{
+
+
+
+  
+}
 
 </style>
