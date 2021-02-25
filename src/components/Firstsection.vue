@@ -1,6 +1,6 @@
 <template>
 
-<div :style="{'background-image':'url(assets/Banner.jpg)'}" class="container-fluid image">
+<div :style="{'background-image':'url(assets/Banner.jpg)'}" class="container-fluid image" id="firstsection">
 <div class="container">
 <div class="row">
     <div class="style div_style">
@@ -45,8 +45,8 @@ export default
   .div_style
   {  
     text-align: left;
-    margin-top: 250px;
-    padding-left: 250px;
+    margin-top: 280px;
+    margin-left: 250px;
   }
 
 

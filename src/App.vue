@@ -53,7 +53,7 @@ export default {
 <style>
 #app 
 {
-   font-family: 'Poppins';
+   font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
    text-align: center;
@@ -75,7 +75,7 @@ max-height: 100%;
 /* vid  */
 .video_style
 {
-  margin-top: 70px;
+  margin-top: 50px;
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
@@ -88,15 +88,15 @@ max-height: 100%;
     width: 100%;
     /* height: 100%; */
     border-radius: 25px;
-    height: 322px;
+    height: 400px;
 }
 
 .video_box {
     border: 10px Solid #1F4F46;
     border-radius: 35px;
-    height: 340px;
+    height: 419px;
     width: 1000px;
-    margin: 100px auto;
+    margin: 30px auto;
 }
 
 .image
@@ -133,7 +133,27 @@ font-weight: bolder;
     object-position: left;
     object-fit: cover;
 }
-
+  .btn_style
+  {
+    border-radius: 5px!important;
+    padding: 5px!important;
+    border: 0!important;
+    display: inline-block!important;
+    padding: 10px 15px!important;
+    box-shadow: 1px 1px 6px -2px rgb(161 161 161)!important;
+    background-color: #efefef!important;
+  }
+ .btn_style:focus
+  {
+    border: 0 !important;
+    outline: none;
+  }
+  button:hover
+{
+  background-color: #1F4F46!important;
+  box-shadow: 4px 2px 3px rgb(161, 161, 161)!important;
+  color: white!important;
+}
 @media (min-width:1200px) and (max-width: 2000px) 
 {
 .style 

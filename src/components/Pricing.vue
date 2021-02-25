@@ -28,12 +28,12 @@
                     <p>
                         Description is like something we need for.
                     </p>
-                     <ul class="list_style">
-                            <p>  10 ML  <i class="fa fa-check i_style" aria-hidden="true"> </i> </p> 
-                            <p>  5 KG <i class="fa fa-check i_style" aria-hidden="true"> </i> </p> 
-                            <p>  5 Gram <i class="fa fa-check i_style" aria-hidden="true"> </i></p>     
-                                <button type="submit" class="btn_style mt-4" aria-label="Submit Button">  Choose a Plan <span class="icon_style"> <i class="fa fa-angle-right"></i> </span></button>    
-                                </ul>
+                     <div class="pricing-unit">
+                        <p>  10 ML  <i class="fa fa-check i_style" aria-hidden="true"> </i> </p> 
+                        <p>  5 KG <i class="fa fa-check i_style" aria-hidden="true"> </i> </p> 
+                        <p>  5 Gram <i class="fa fa-check i_style" aria-hidden="true"> </i></p>     
+                        <button type="submit" class="btn_style mt-4" aria-label="Submit Button">  Choose a Plan <span class="icon_style"> <i class="fa fa-angle-right"></i> </span></button>    
+                      </div>
                 </div>
                 </div>
          </div>
@@ -60,12 +60,12 @@
                     <p>
                         Description is like something we need for.
                     </p>
-                                <ul class="list_style">
-                                 <p> 10 ML  <i class="fa fa-check i_style" aria-hidden="true"> </i> </p> 
-                                <p>  5 KG  <i class="fa fa-check i_style" aria-hidden="true"> </i> </p> 
-                                <p>  5 Gram <i class="fa fa-check i_style" aria-hidden="true"> </i></p>     
-                                <button type="submit" class="btn_style mt-4" aria-label="Submit Button"> Choose a Plan  <span class="icon_style"> <i class="fa fa-angle-right"></i> </span></button>        
-                                </ul>
+                               <div class="pricing-unit">
+                        <p>  10 ML  <i class="fa fa-check i_style" aria-hidden="true"> </i> </p> 
+                        <p>  5 KG <i class="fa fa-check i_style" aria-hidden="true"> </i> </p> 
+                        <p>  5 Gram <i class="fa fa-check i_style" aria-hidden="true"> </i></p>     
+                        <button type="submit" class="btn_style mt-4" aria-label="Submit Button">  Choose a Plan <span class="icon_style"> <i class="fa fa-angle-right"></i> </span></button>    
+                      </div>
                 </div>
                 </div>
          </div>
@@ -93,12 +93,12 @@
                     <p>
                         Description is like something we need for.
                     </p>
-                     <ul class="list_style">
-                                <p>  10 ML  <i class="fa fa-check i_style" aria-hidden="true"> </i> </p> 
-                                <p>  5 KG  <i class="fa fa-check i_style" aria-hidden="true"> </i> </p> 
-                                <p>  5 Gram <i class="fa fa-check i_style" aria-hidden="true"> </i></p>    
-                               <button type="submit" class="btn_style  mt-4" aria-label="Submit Button"> Choose a Plan <span class="icon_style"> <i class="fa fa-angle-right"></i> </span></button>      
-                                </ul>
+                    <div class="pricing-unit">
+                        <p>  10 ML  <i class="fa fa-check i_style" aria-hidden="true"> </i> </p> 
+                        <p>  5 KG <i class="fa fa-check i_style" aria-hidden="true"> </i> </p> 
+                        <p>  5 Gram <i class="fa fa-check i_style" aria-hidden="true"> </i></p>     
+                        <button type="submit" class="btn_style mt-4" aria-label="Submit Button">  Choose a Plan <span class="icon_style"> <i class="fa fa-angle-right"></i> </span></button>    
+                      </div>
                 </div>
                 </div>
          </div>
@@ -189,15 +189,20 @@ button:hover
     padding: 100px;
 }
 
-
-
+.pricing-unit p {
+    text-align: left;
+}
+.pricing-unit p i {
+    float: right;
+}
 .card:hover
 {
-
-
 box-shadow: 0px 4px 15px -1px rgb(182, 182, 182);
-border: 1px solid transparent;    
-
+border: 0;    
+}
+.card{
+    border:0;
+    box-shadow: 0px 0px 15px -8px rgb(182 182 182);
 }
 
 

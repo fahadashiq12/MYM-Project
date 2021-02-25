@@ -15,15 +15,16 @@
       </div>
       </div>
         
-    </div>
+   
 
 
   <div class="col-xxl-6 col-xl-6 col-lg-16 col-md-12 col-sm-12">
      
-   
+   <img src="/assets/Support2.png">
  
 
   </div>
+   </div>
 
 </div>
 </div>

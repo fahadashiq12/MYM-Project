@@ -2,37 +2,7 @@
 
 <footer class="footer-section">
         <div class="container">
-            <div class="footer-cta pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-4 col-md-4 mb-30">
-                        <div class="single-cta">
-                            <i class="fa fa-map-marker"></i>
-                            <div class="cta-text">
-                                <h4>Find us</h4>
-                                <span>1010 Avenue, sw 54321, Pakistan </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-4 mb-30">
-                        <div class="single-cta">
-                            <i class="fa fa-phone"></i>
-                            <div class="cta-text">
-                                <h4 class="foot_txt"> Call us </h4>
-                                <span>9876543210 </span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-md-4 mb-30">
-                        <div class="single-cta">
-                            <i class="fa fa-envelope-open"></i>
-                            <div class="cta-text">
-                                <h4>Mail us</h4>
-                                <span>mail@salada.com</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
             <div class="footer-content pt-5 pb-5">
                 <div class="row">
                     <div class="col-xl-4 col-lg-4 mb-50">
@@ -73,18 +43,28 @@
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
                         <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Subscribe</h3>
+                           <div class="footer-widget-heading">
+                                <h3>Contact Us</h3>
                             </div>
-                            <div class="footer-text mb-25">
-                                <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
+                           <div class="single-cta">
+                              <i class="fa fa-map-marker"></i>
+                              <div class="cta-text">
+                                  <span>1010 Avenue, sw 54321, Pakistan </span>
+                              </div>
+                           </div>
+                            <div class="single-cta">
+                            <i class="fa fa-phone"></i>
+                            <div class="cta-text">
+                                <span>9876543210 </span>
+                                </div>
                             </div>
-                            <div class="subscribe-form">
-                                <form action="#">
-                                    <input type="text" placeholder="Email Address">
-                                    <button><i class="fa fa-paper-plane"></i></button>
-                                </form>
+                             <div class="single-cta">
+                            <i class="fa fa-envelope-open"></i>
+                            <div class="cta-text">
+                                <span>mail@salada.com</span>
                             </div>
+                        </div>
+
                         </div>
                     </div>
                 </div>
@@ -114,64 +94,6 @@
         </div>
 </footer>
 
-<!--                
-                <div class="col-xl-3 col-lg-3 col-md-12 third_table" style="text-decoration: solid;">
-                
-                    <div class="row">
-                        <list>
-                          <img class="logo_style style" src="/assets/Salada.png">
-                        <ul class="style">
-                            888 888 888 090
-                            needhelp@example.com
-                            815 road, baraklyn street new york 6500
-                        </ul>
-                        </list>
-                    </div>   
-                </div>  
-
-                <div class="col-xl-3 col-lg-3 col-md-12 third_table" style="text-decoration: solid;">
-                
-                    <div class="row">
-                        <list>
-                          <h6> Explore </h6>
-                        <ul class="style">
-                            888 888 888 090
-                            needhelp@example.com
-                            815 road, baraklyn street new york 6500
-                        </ul>
-                        </list>
-                    </div>   
-                </div>  
-
-                <div class="col-xl-3 col-lg-3 col-md-12 third_table" style="text-decoration: solid;">
-                
-                    <div class="row">
-                        <list>
-                         <h6> Services </h6>
-                        <ul class="style">
-                            888 888 888 090
-                            needhelp@example.com
-                            815 road, baraklyn street new york 6500
-                        </ul>
-                        </list>
-                    </div>   
-                </div>  
-
-                <div class="col-xl-3 col-lg-3 col-md-12 third_table" style="text-decoration: solid;">
-                
-                    <div class="row">
-                        <list>
-                         <h6>  Contact us <i class="fa fa-facebook socail-icon-t" aria-hidden="true"></i> <i class="fa fa-twitter" aria-hidden="true"></i>  <i class="fa fa-vimeo" aria-hidden="true"></i> </h6>
-                        <ul class="style">
-                            888 888 888 090
-                            needhelp@example.com
-                            815 road, baraklyn street new york 6500
-                        </ul>
-                        </list>
-                    </div>   
-                </div>  
-                                -->
-
 </template>
 
 <script>
@@ -182,7 +104,13 @@ export default {
 
 <style scoped>
 
-
+.single-cta {
+    float: left;
+    width: 100%;
+    text-align: left;
+    line-height: 45px;
+    margin-top: 3px;
+}
 ul {
     margin: 0px;
     padding: 0px;
@@ -190,6 +118,8 @@ ul {
 .footer-section {
   background: white;
   position: relative;
+      border-top: 1px solid #efefef;
+      margin-top: 20px;
 }
 .footer-cta {
   border-bottom: 1px solid #378475;

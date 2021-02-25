@@ -38,6 +38,7 @@ export default
 .video_style
 {
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 /* Then style the iframe to fit in the container div with full height and width */
@@ -50,26 +51,28 @@ export default
     width: 100%;
     /* height: 100%; */
     border-radius: 25px;
-    height: 300px;
+    height: 380px;
 }
 
 .video_box {
     border: 10px Solid #1F4F46;
     border-radius: 35px;
-    height: 390px;
+    height: 380px;
     /* width: 800px; */
     margin-left: 400px;
     margin-top: 100px;
     max-width: 100%;
+    margin-bottom: 40px;
 }
 .video_box[data-v-a19c0664] {
     border: 10px Solid #1F4F46;
     border-radius: 35px;
-    height: 390px;
+    height: 380px;
     width: 900px;
     margin-left: 400px;
     margin-top: 100px;
-    max-width: 100%
+    max-width: 100%;
+    margin-bottom: 40px;
 }
 .image
 {
@@ -80,10 +83,10 @@ background-size: cover;
 }
 
 .iframe_style {
-    position: relative;
+    /*  position: relative; */
     overflow: hidden;
     width: 100.2%;
-    padding-top: 56.25%;
+    /* padding-top: 56.    25%; */
     margin-left: -1px;
 }
 

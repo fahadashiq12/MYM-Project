@@ -19,42 +19,6 @@
 </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- <div :style="{'background-image':'url(assets/NewsBack.png)'}" class="conatiner">
-    <div class="col-lg-12 col-md-6 col-sm-6">
-    <div class="newsletter_bg news_bg">
-        <h1 class="style"> NewsLetter </h1>
-        <p class="style"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum is simply dummy text of the printing and typesetting industry </p>
-          
-        <div class="row g-3 align-items-center">
-    
-        <div class="col">            
-            <input placeholder="Your Email" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline">
-            </div>
-            <div class="col-auto"> 
-            <button type="submit" class="btn_style text-black" aria-label="Submit Button"> Sign Up Now <span class="icon_style"> </span></button>
-            </div>
-            </div>            
-        </div>
-            
-
-
-    </div>
-    </div> -->
    
 </template>
 

@@ -8,7 +8,7 @@
 <div class="row support">
 <div class="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12">
     
-    <img class="support_style" alt="Tools Background" src="/assets/Support.png">
+    <img class="support_style" alt="Tools Background" src="/assets/Support1.png">
     
 </div>
  
@@ -62,7 +62,7 @@ color:  #E6FFFC;
 
 .support_design
 {
- padding-top: 45px;
+ padding-top: 115px;
  text-align: left;
 
 }
@@ -100,7 +100,7 @@ color:  #E6FFFC;
 .support_style
 {
 
-height: 300px;
+height: 490px;
 /* padding-left: 340px; */
 /* padding-top: 50px; */
 

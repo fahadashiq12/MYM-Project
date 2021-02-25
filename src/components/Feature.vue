@@ -28,7 +28,7 @@
                         <p>
                             Description is like something we need for.
                         </p>
-                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        <a href="" class="arrow-styl"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                     </div>
                     </div>
                 </div>
@@ -54,7 +54,7 @@
                         <p>
                             Description is like something we need for.
                         </p>
-                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        <a href="" class="arrow-styl"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                     </div>
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                         <p>
                             Description is like something we need for.
                         </p>
-                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        <a href="" class="arrow-styl"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                     </div>
                     </div>
                 </div>
@@ -106,7 +106,7 @@
                         <p>
                             Description is like something we need for.
                         </p>
-                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                        <a href="" class="arrow-styl"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                     </div>
                     </div>
                 </div>
@@ -146,7 +146,9 @@ margin-top: 70px;
  border: 5px solid transparent;
 
 }
-
+.card{
+    border: 0;
+}
 .style
 {
     padding: 40px;
@@ -169,25 +171,18 @@ margin-top: 70px;
     height: 66px;
 }
 
-.icon_box:hover
+/* .card:hover .icon_box
 {
-  transform: translate(1px, 1px);
   box-shadow: 0px 10px 15px -5px rgb(182, 182, 182);
-}
+} */
 
 .card:hover
 {
   box-shadow: 0px 4px 15px -1px rgb(182, 182, 182);
-  border: 1px solid transparent;
+  border: 0;
 } 
 
 
- i:hover
-{
-     background-color: #1F4F46;
-     color: white;
-     padding: 2px;
-}
 
 .txt_style
 {
@@ -195,8 +190,15 @@ margin-top: 70px;
 font-weight: bolder;
 
 }
-
-
+.arrow-styl i{
+    color: black;
+    font-size: 22px;
+     transition: all 0.5s;
+}
+.arrow-styl:hover i{
+    transform: scale(1.5);
+    transition: all 0.5s;
+}
 @media (min-width:1200px) and (max-width: 2000px) 
 {
 
