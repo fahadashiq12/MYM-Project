@@ -1,6 +1,6 @@
 <template>
 
-<div :style="{'background-image':'url(assets/Banner.jpg)'}" class="container-fluid image" id="firstsection">
+<div :style="{'background-image':'url(assets/Banner.png)'}" class="container-fluid image" id="firstsection">
 <div class="container">
     
     <div class="row">

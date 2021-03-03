@@ -143,7 +143,8 @@ export default {
 {
 
 margin-top: 70px;
- border: 5px solid transparent;
+border: 5px solid transparent;
+padding: 0px;
 
 }
 
@@ -169,16 +170,17 @@ margin-top: 70px;
     height: 66px;
 }
 
-.icon_box:hover
+/* .icon_box:hover
 {
   transform: translate(1px, 1px);
   box-shadow: 0px 10px 15px -5px rgb(182, 182, 182);
-}
+} */
 
 .card:hover
 {
   box-shadow: 0px 4px 15px -1px rgb(182, 182, 182);
   border: 1px solid transparent;
+  transition-timing-function: ease-in-out;
 } 
 
 
@@ -187,6 +189,8 @@ margin-top: 70px;
      background-color: #1F4F46;
      color: white;
      padding: 2px;
+     border-radius: 35px;
+     
 }
 
 .txt_style
@@ -248,13 +252,12 @@ font-weight: bolder;
 {
 
 
-.style {
+.style 
+{
     padding: 40px;
     border-radius: 8px;
     margin-bottom: 15px !important;
 }
-
-
 
 }
 

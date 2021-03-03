@@ -1,4 +1,5 @@
 <template>
+<div :style="{'background-image':'url(assets/Gradient.png)'}" >
 <div class="container" id="support">
 <div class="support_bg">
      <div class="row">
@@ -50,6 +51,8 @@
 </div>
 </div>
 </div>
+</div>
+
        
 </template>
 

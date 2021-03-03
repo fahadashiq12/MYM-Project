@@ -1,96 +1,101 @@
 <template>
-<footer class="footer-section">
-        <div class="container">
 
-            <div class="footer-content pt-5 pb-5">
-                <div class="row">
-                    <div class="col-xl-4 col-lg-4 mb-50">
-                        <div class="footer-widget">
-                            <div class="footer-logo">
-                                <a href="index.html"><img src="/assets/Salada.png" class="img-fluid" alt="logo"></a>
-                            </div>
-                            <!-- <div class="footer-text">
-                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
-                                elit,Lorem ipsum dolor sit amet.</p>
-                            </div> -->
-                            <div class="footer-social-icon">
-                                <h5>Follow us</h5>
-                                <a href="#"><i class="fa fa-facebook-f facebook-bg"></i></a>
-                                <a href="#"><i class="fa fa-twitter twitter-bg"></i></a>
-                                <a href="#"><i class="fa fa-google google-bg"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-                        <div class="footer-widget">
-                            <div class="footer-widget-heading">
-                                <h3>Useful Links</h3>
-                            </div>
-                            <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">about</a></li>
-                                <li><a href="#">services</a></li>
-                                <li><a href="#">portfolio</a></li>
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">About us</a></li>
-                                <li><a href="#">Our Services</a></li>
-                                <li><a href="#">Expert Team</a></li>
-                                <li><a href="#">Contact us</a></li>
-                                <li><a href="#">Latest News</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
-                        <div class="footer-widget">
-                           <div class="footer-widget-heading">
-                                <h3>Contact Us</h3>
-                            </div>
-                           <div class="single-cta">
-                              <i class="fa fa-map-marker"></i>
-                              <div class="cta-text">
-                                  <span>1010 Avenue, sw 54321, Pakistan </span>
-                              </div>
-                           </div>
-                            <div class="single-cta">
-                            <i class="fa fa-phone"></i>
-                            <div class="cta-text">
-                                <span>9876543210 </span>
-                                </div>
-                            </div>
-                             <div class="single-cta">
-                            <i class="fa fa-envelope-open"></i>
-                            <div class="cta-text">
-                                <span>mail@salada.com</span>
-                            </div>
-                        </div>
+<footer class="position-relative home-footer px-sm-5 py-3">
+  <div class="footer_style">
 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="copyright-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
-                        <div class="copyright-text">
-                            <p class="text-white">Copyright &copy; 2018, All Right Reserved <a href=""> Salada </a></p>
-                        </div>
-                    </div>
-                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-                        <div class="footer-menu">
-                            <ul>
-                                <li><a href="#" class="text-white">Home</a></li>
-                                <li><a href="#" class="text-white" >Terms</a></li>
-                                <li><a href="#" class="text-white" >Privacy</a></li>
-                                <li><a href="#" class="text-white" >Policy</a></li>
-                                <li><a href="#" class="text-white">Contact</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<div class="d-flex justify-content-between pb-3 footer-top-row">
+<div class="mt-2">
+<img src="/assets/MYM.png">
+</div>
+<!-- <div class="scroll-top"><a href="#header" class="d-flex align-items-center">SCROLL TO TOP <i class="ms-3 fa fa-chevron-up"></i></a></div> -->
+<div class="d-flex app-link">
+<a href="" class="me-3"><img class="download-apple" src="/assets/AppleStr.png" style="max-width: 190px"></a>
+<a href=""><img class="download-app" src="/assets/AndStore.png" style="max-width: 190px"></a>
+</div>
+</div>
+
+<div class="row m-0 position-relative footer-menu">
+<div class="container p-0">
+<div class="row m-0">
+<div class="col-sm-12 p-sm-0">
+<div class="row m-0 position-relative">
+<div class="col-sm-3 col-6">
+<p class="heading theme-black-text mb-3">General</p>
+
+<p class="mb-0"><a href="">Shipping Calculator</a></p>
+
+
+<p class="mb-0"><a href="">Restricted Items</a></p>
+
+
+<p class="mb-0"><a href="">Rate Sheet</a></p>
+
+</div>
+<div class="col-sm-3 col-6">
+<p class="heading theme-black-text mb-3">Help</p>
+
+<p class="mb-0"><a href="">Shipping Calculator</a></p>
+
+
+<p class="mb-0"><a href="">FAQ</a></p>
+
+
+<p class="mb-0"><a href="">About Us</a></p>
+
+
+<p class="mb-0"><a href="">Contact Us</a></p>
+
+
+<p class="mb-0"><a href="">Location</a></p>
+
+
+<p class="mb-0"><a href="">Opening Hours</a></p>
+
+</div>
+<div class="col-sm-3 col-6">
+<p class="heading theme-black-text mb-3">Customer Service</p>
+
+<p class="mb-0"><a href="">Shipping Calculator</a></p>
+
+
+<p class="mb-0"><a href="">My Account</a></p>
+
+</div>
+<div class="col-sm-3 col-6">
+<p class="heading theme-black-text mb-3">Contact Us</p>
+
+<p class="mb-0"><a href=""><i class="fa fa-envelope me-2"></i> support@airdropja.com</a></p>
+
+
+<p class="mb-0"><a href=""><i class="fa fa-phone me-2"></i> +1-876-627-1894</a></p>
+
+
+<p class="mb-0"><a href=""><i class="fa fa-whatsapp me-2"></i> +1-876-554-5265</a></p>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row m-0 position-relative footer-bottom mt-1 social-ic">
+
+<div class="col-sm-9 d-flex align-items-left">
+<p style="opacity: 1">© 2021 Airdrop Limited. All rights Reserved. Terms and Conditions. Privacy Policy</p>
+</div>
+<div class="col-sm-3">
+<p class="heading theme-black-text">Follow Us</p>
+<a href="" class="me-3"><i class="fa fa-facebook"></i></a>
+<a href="" class="mx-3"><i class="fa fa-twitter"></i></a>
+<a href="" class="mx-3"><i class="fa fa-instagram"></i></a>
+<a href="" class="mx-3"><i class="fa fa-youtube"></i></a>
+</div>
+</div>
+<!-- <img src="img/footer-text-1.svg" class="footer-texture">
+<img src="img/footer-text-2.svg" class="footer-texture"> -->
+
+</div>
+
 </footer>
 
 </template>
@@ -103,6 +108,88 @@ export default {
 
 <style scoped>
 
+.home-footer 
+{
+background:white;
+}
+
+.footer-top-row 
+{
+/* border-bottom: 1px solid  #1F4F46!important;  */
+}
+
+.footer-menu 
+{
+padding: 2rem 0;
+z-index: 999;
+}
+
+.position-relative 
+{
+position: relative!important;
+}
+
+.home-footer p 
+{
+color: #1F4F46!important;
+font-size: 18px;
+width: 100%;
+float: left;
+}
+
+.footer-menu p a
+{
+color:#1F4F46!important;
+
+float: left;
+}
+
+.footer-menu p a:hover 
+{
+color: #1F4F46;
+text-decoration: none;
+opacity: 1;
+}
+.footer-menu p a:hover::after {
+width: 100%;
+}
+.footer-menu p a::after {
+content: '';
+height: 1px;
+width: 0;
+border-radius: 25px;
+display: block;
+position: relative;
+left: 0;
+bottom: 3px;
+transition: all .4s ease;
+background-color:#1F4F46!important;
+}
+.social-ic {
+z-index: 9;
+}
+.social-ic a i {
+color:  #1F4F46!important;
+font-size: 1.5rem;
+}
+
+
+.footer_style
+{
+    padding-right: 2rem !important;
+    padding-left: 2rem !important;
+}
+
+.download-apple
+{
+    max-width: 160px !important;
+    margin-top: 6px;
+}
+
+
+
+
+/* 
 .single-cta {
     float: left;
     width: 100%;
@@ -286,7 +373,7 @@ color: #378475;
 {
 
 color: ;
-}
+} */
 
 
 @media (min-width:1200px) and (max-width: 2000px) 

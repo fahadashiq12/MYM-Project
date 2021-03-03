@@ -1,6 +1,6 @@
 <template>
 
-<div class="news_bg">
+<div  :style="{'background-image':'url(assets/Gradient.png)'}" class="news_bg">
 <div class="container" id="news">
 <div class="newsletter js-rollover" data-radius="50">
 <svg viewBox="0 0 694 549" width="694" height="549">

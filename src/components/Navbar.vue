@@ -5,7 +5,7 @@
     <div class="row">
       <div class="col-auto">
          <div class="logo-m">
-          <a href=""> <img class="logo_style" alt="Vue logo" src="/assets/Salada.png"></a>
+          <a href=""> <img class="logo_style" alt="Vue logo" src="/assets/MYM.png"></a>
          </div>
     </div>
   <div class="col">
