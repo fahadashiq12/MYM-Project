@@ -1,21 +1,16 @@
 <template>
   <Navbar />
    <Firstsection />
-  <!-- <img class="img_style" alt="First Background" src="./assets/Banner.jpg"> -->
   <Feature />
   <Video />
   <Tools />
-  <Customer />
+  <!-- <Customer /> -->
   <Support />
   <Pricing />
   <Testimonials />
   <Article />
   <Newsletter />
   <Footer />
-  <!-- <img class="img2_style" alt="Tools Background" src="./assets/42.png"> -->
-  <!-- <img alt="Vue logo" src="./assets/Salada.png">  -->
-  <!-- <Home data="Salada First Component and we deal with all things together for all things we need for all things together we are able to "/> -->
-
 </template>
 
 <script>
@@ -24,7 +19,7 @@ import Navbar from './components/Navbar';
 import Feature from './components/Feature';
 import Video from './components/Video';
 import Tools from './components/Tools';
-import Customer from './components/Customer';
+// import Customer from './components/Customer';
 import Support from './components/Support';
 import Pricing from './components/Pricing';
 import Testimonials from './components/Testimonials';
@@ -33,13 +28,13 @@ import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
 export default {
   name: 'App',
-  components: {
+    components: {
     Navbar,
     Firstsection,
     Feature,
     Video,
     Tools,
-    Customer,
+    // Customer,
     Support,
     Pricing,
     Testimonials,
@@ -53,7 +48,7 @@ export default {
 <style>
 #app 
 {
-   font-family: 'Poppins', sans-serif;
+   font-family: 'Nunito';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
    text-align: center;
@@ -107,13 +102,13 @@ background-position: center;
 background-size: cover; 
 }
 
-.iframe_style {
+/* .iframe_style {
     position: relative;
     overflow: hidden;
     width: 100.2%;
     padding-top: 56.25%;
     margin-left: -1px;
-}
+} */
 
 .txt_style
 {
@@ -122,10 +117,6 @@ font-weight: bolder;
 
 }
 
-.video_box:hover
-{
- box-shadow: 10px 2px 50px #E6FFFC;
-}
 
 .tool_image {
     height: 100vh;

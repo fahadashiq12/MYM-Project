@@ -1,5 +1,5 @@
 <template>
-            <div class="feature_style">    
+            <div class="feature_style" id="featuresection">    
             <div class="container">
             <div class="row"> 
 
@@ -11,7 +11,7 @@
 
             <div class="card_style">
             <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="col-lg-3 col-md-6 col-sm-12 feature">
             <div class="card style">
                 <div class="p-5 enroll2">
                 <div class="row text-center">
@@ -28,14 +28,14 @@
                         <p>
                             Description is like something we need for.
                         </p>
-                        <a href="" class="arrow-styl"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                     </div>
                     </div>
                 </div>
             </div>  
             </div>
                         
-            <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="col-lg-3 col-md-6 col-sm-12 feature">
             <div class="card style">
                 <div class="p-5 enroll2">
                 <div class="row text-center">
@@ -54,14 +54,14 @@
                         <p>
                             Description is like something we need for.
                         </p>
-                        <a href="" class="arrow-styl"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                     </div>
                     </div>
                 </div>
             </div>  
             </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="col-lg-3 col-md-6 col-sm-12 feature">
             <div class="card style">
                 <div class="p-5 enroll2">
                 <div class="row text-center">
@@ -80,14 +80,14 @@
                         <p>
                             Description is like something we need for.
                         </p>
-                        <a href="" class="arrow-styl"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                     </div>
                     </div>
                 </div>
             </div>  
             </div>
 
-            <div class="col-lg-3 col-md-6 col-sm-12">
+            <div class="col-lg-3 col-md-6 col-sm-12 feature">
             <div class="card style">
                 <div class="p-5 enroll2">
                 <div class="row text-center">
@@ -106,7 +106,7 @@
                         <p>
                             Description is like something we need for.
                         </p>
-                        <a href="" class="arrow-styl"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                     </div>
                     </div>
                 </div>
@@ -146,9 +146,7 @@ margin-top: 70px;
  border: 5px solid transparent;
 
 }
-.card{
-    border: 0;
-}
+
 .style
 {
     padding: 40px;
@@ -171,18 +169,25 @@ margin-top: 70px;
     height: 66px;
 }
 
-/* .card:hover .icon_box
+.icon_box:hover
 {
+  transform: translate(1px, 1px);
   box-shadow: 0px 10px 15px -5px rgb(182, 182, 182);
-} */
+}
 
 .card:hover
 {
   box-shadow: 0px 4px 15px -1px rgb(182, 182, 182);
-  border: 0;
+  border: 1px solid transparent;
 } 
 
 
+ i:hover
+{
+     background-color: #1F4F46;
+     color: white;
+     padding: 2px;
+}
 
 .txt_style
 {
@@ -190,15 +195,8 @@ margin-top: 70px;
 font-weight: bolder;
 
 }
-.arrow-styl i{
-    color: black;
-    font-size: 22px;
-     transition: all 0.5s;
-}
-.arrow-styl:hover i{
-    transform: scale(1.5);
-    transition: all 0.5s;
-}
+
+
 @media (min-width:1200px) and (max-width: 2000px) 
 {
 
@@ -214,18 +212,49 @@ font-weight: bolder;
     
 }
 
+
+.icon_box[data-v-7f6541f6] {
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: #E6FFFC;
+    padding: 0px;
+    margin-bottom: 50px;
+}
+
+
+.feature_style {
+    margin-top: 0px;
+    padding-bottom: 80px;
+}
+
+
 }
 
 @media (min-width:768px) and (max-width: 991px) 
 {
 
-
-
+.card_style
+{
+    padding: 10px;
 }
 
+.feature
+{
+   padding: 10px;
+}
+}
 
 @media (min-width:576px) and (max-width: 767px) 
 {
+
+
+.style {
+    padding: 40px;
+    border-radius: 8px;
+    margin-bottom: 15px !important;
+}
+
+
 
 }
 
@@ -233,7 +262,14 @@ font-weight: bolder;
 @media (min-width:320px) and (max-width: 575px) 
 {
 
-
+.icon_box
+{
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background-color: #E6FFFC;
+    padding: 0px !important;
+    margin-bottom: 50px;
+}
 
   
 }

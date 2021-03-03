@@ -1,5 +1,5 @@
 <template>
-<div :style="{'background-image':'url(assets/Pricing.png)'}" class="price_style">
+<div :style="{'background-image':'url(assets/Bg1.png'}" class="price_style" id="pricing">
 <div class="container">
     <div class="row">
         <div class="pricing_style">
@@ -10,7 +10,7 @@
    <div class="card_style">
    <div class="row">
 
-   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12">
+   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12">
        <div class="card style">
          <div class="p-5 enroll2">
          <div class="row text-center">
@@ -40,7 +40,7 @@
        </div>  
    </div>
                    
-   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12">
+   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12">
        <div class="card style">
          <div class="p-5 enroll2">
          <div class="row text-center">
@@ -72,7 +72,7 @@
        </div>  
    </div>
 
-   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12">
+   <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12">
        <div class="card style">
          <div class="p-5 enroll2">
          <div class="row text-center">
@@ -186,7 +186,8 @@ button:hover
 
 .card_style
 {
-    padding: 100px;
+   padding: 70px;
+   margin-bottom: 10px;
 }
 
 .pricing-unit p {
@@ -229,12 +230,40 @@ border: 0;
 {
 
 
+.p-5 {
+    padding: 1rem !important;
+}
+
+
+.btn_style {
+    border-radius: 5px!important;
+    padding: 5px!important;
+    border: 0!important;
+    display: inline-block!important;
+    padding: 10px 15px!important;
+    box-shadow: 1px 1px 6px -2px rgb(161 161 161)!important;
+    background-color: #efefef!important;
+}
+
+
+.card_style
+{
+    padding: 0px !important; 
+}
+
 
 }
 
 
 @media (min-width:576px) and (max-width: 767px) 
 {
+
+.col-sm-12 {
+    flex: 0 0 auto;
+    width: 100%;
+    margin-bottom: 15px !important;
+}
+
 
 }
 

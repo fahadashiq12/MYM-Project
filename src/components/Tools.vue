@@ -1,6 +1,4 @@
 <template>
-
-
 <div class="container-fluid">
 <div class="row">
  
@@ -18,9 +16,9 @@
        </h1>
         <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
           <ul class="list_style">
-          <p> <i class="fa fa-check" aria-hidden="true"> </i> This is Salada for BitsClan. we take Orders </p> 
-          <p> <i class="fa fa-check" aria-hidden="true"> </i> This is Salada for BitsClan. We have complete application </p> 
-          <p> <i class="fa fa-check" aria-hidden="true"> </i> This is Salada for BitsClan. Integrate into some things we do together</p>    
+          <p> <i class="fa fa-check check" aria-hidden="true"> </i> This is Salada for BitsClan. we take Orders </p> 
+          <p> <i class="fa fa-check check" aria-hidden="true"> </i> This is Salada for BitsClan. We have complete application </p> 
+          <p> <i class="fa fa-check check " aria-hidden="true"> </i> This is Salada for BitsClan. Integrate into some things we do together</p>    
           <button type="submit" class="btn_style mt-4" aria-label="Submit Button"> Free Trial <span class="icon_style"> <i class="fa fa-angle-right"></i> </span></button>        
           </ul>
                     
@@ -47,6 +45,12 @@ export default
 
 <style scoped>
 
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 3px;
+}
 
 .tool_image
 {
@@ -90,7 +94,13 @@ font-weight: bolder;
 
 }
 
+.check:hover
+{
 
+color: red;
+
+
+}
 button:hover
 {
   background-color: #1F4F46;
@@ -128,6 +138,15 @@ ol, ul {
 {
 
 
+.tool_section {
+    text-align: left;
+    padding-top: 130px;
+    padding-bottom: 50px !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 
 }
 
@@ -135,12 +154,33 @@ ol, ul {
 @media (min-width:576px) and (max-width: 767px) 
 {
 
+.tool_section[data-v-51f35f4a] {
+    text-align: left;
+    padding-top: 130px;
+    padding-bottom: 0px !important; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
 }
 
 
 @media (min-width:320px) and (max-width: 575px) 
 {
 
+
+.tool_section 
+{
+    text-align: left;
+    padding-top: 130px;
+    padding-bottom: 0px !important; 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
 
 
   

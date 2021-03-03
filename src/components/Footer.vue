@@ -1,5 +1,4 @@
 <template>
-
 <footer class="footer-section">
         <div class="container">
 
@@ -15,7 +14,7 @@
                                 elit,Lorem ipsum dolor sit amet.</p>
                             </div> -->
                             <div class="footer-social-icon">
-                                <span>Follow us</span>
+                                <h5>Follow us</h5>
                                 <a href="#"><i class="fa fa-facebook-f facebook-bg"></i></a>
                                 <a href="#"><i class="fa fa-twitter twitter-bg"></i></a>
                                 <a href="#"><i class="fa fa-google google-bg"></i></a>
@@ -75,7 +74,7 @@
                 <div class="row">
                     <div class="col-xl-6 col-lg-6 text-center text-lg-left">
                         <div class="copyright-text">
-                            <p class="text-white">Copyright &copy; 2018, All Right Reserved <a href="https://codepen.io/anupkumar92/"> Salada </a></p>
+                            <p class="text-white">Copyright &copy; 2018, All Right Reserved <a href=""> Salada </a></p>
                         </div>
                     </div>
                     <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
@@ -275,6 +274,11 @@ ul {
 .footer-menu li a {
   font-size: 14px;
   color: #878787;
+}
+
+.text_clr
+{
+color: #378475;
 }
 
 
