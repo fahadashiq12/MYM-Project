@@ -1,4 +1,4 @@
-# salada
+# Make your Meal
 
 ## Project setup
 ```
