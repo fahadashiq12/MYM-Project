@@ -1,6 +1,6 @@
 <template>
-<div :style="{'background-image':'url(assets/Gradient.png)'}" >
-<div class="container" id="support">
+<div :style="{'background-image':'url(assets/Videobg.png)'}" class="image">
+<div  class="container" id="support">
 <div class="support_bg">
      <div class="row">
         <div class="support_style">
@@ -9,9 +9,9 @@
     </div>
 
 <div class="row contact-support">
-            <div class="col-md-4 col-sm-12 contact-support-card text-center">
-                <div class="contact-support-card__image">
-                    <img src="/assets/IT1 (1).png" alt="" class="img">
+            <div class="col-lg-6 col-md-6 col-sm-12 contact-support-card text-center">
+                <div class="">
+                    <img src="/assets/Char1 (4).png" alt="" class="img">
                 </div>
                 <div class="contact-support-card__content mt-4 mb-4">
                     <h4> 24/7 Support </h4>
@@ -22,32 +22,21 @@
                <button type="submit" class="btn_style mt-4" aria-label="Submit Button"> Get Started <span class="icon_style"> <i class="fa fa-angle-right"></i> </span></button>
     
             </div>
-            <div class="col-md-4 col-sm-12 contact-support-card text-center">
+          
+            <div class="col-lg-6 col-md-6 col-sm-12 contact-support-card text-center">
                 <div class="contact-support-card__image">
-                    <img src="/assets/IT1 (4).png" alt="" class="img">
+                    <img src="/assets/Char1 (5).png" alt="" class="img">
                 </div>
                 <div class="contact-support-card__content mt-4 mb-4">
                     <h4>Helpline</h4>
                     <p>
-                        100+ articles to get the information you need when you need it.
+                        100+ articles to get the information when you need it.
                     </p>
                 </div>
                 <button type="submit" class="btn_style mt-4" aria-label="Submit Button"> Get Started <span class="icon_style"> <i class="fa fa-angle-right"></i> </span></button>
     
             </div>
-            <div class="col-md-4 col-sm-12 contact-support-card text-center">
-                <div class="contact-support-card__image">
-                    <img src="/assets/IT1 (2).png" alt="" class="img">
-                </div>
-                <div class="contact-support-card__content mt-4 mb-4">
-                    <h4>24/7 Availability</h4>
-                    <p>
-                        100+ articles to get the information you need when you need it.
-                    </p>
-                </div>
-                <button type="submit" class="btn_style mt-4" aria-label="Submit Button"> Get Started <span class="icon_style"> <i class="fa fa-angle-right"></i> </span></button>
-    
-            </div>
+            
 </div>
 </div>
 </div>
@@ -64,18 +53,69 @@ export default {
 
 
 <style scoped>
-   .contact-support {
+
+.image
+{
+height: 100%;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover; 
+}
+
+/* 
+.vl {
+  border-left: 6px solid green;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+} */
+
+
+.btn_style
+{
+
+background-color: #1F4F46!important;
+color: white;
+
+}
+
+.btn_style
+{
+
+background-color: #1F4F46!important;
+color: white;
+
+}
+
+.contact-support 
+{
         /* border: 1px solid #ddd; */
         border-radius: 5px;
         margin: 0px 0;
-    }
+}
 
-    .contact-support-card {
+.contact-support-card__image
+{
+        margin-top: 300px;
+}
+
+
+.img 
+{
+    max-width: 65% !important;
+}
+
+.contact-support-card 
+{
         /* border-right: 1px solid #ddd; */
-        padding: 40px;
-    }
+        /* padding: 40px; */
+        /* margin-top: 25px; */
+}
 
-    .contact-support-card:last-child {
+.contact-support-card:last-child
+ {
         border: none;
     }
 

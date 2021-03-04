@@ -83,13 +83,13 @@ max-height: 100%;
     width: 100%;
     /* height: 100%; */
     border-radius: 25px;
-    height: 400px;
+     height: 440px;
 }
 
 .video_box {
     border: 10px Solid #1F4F46;
     border-radius: 35px;
-    height: 419px;
+    height: 460px;
     width: 1000px;
     margin: 30px auto;
 }

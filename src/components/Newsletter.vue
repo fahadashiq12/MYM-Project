@@ -1,6 +1,6 @@
 <template>
 
-<div  :style="{'background-image':'url(assets/Gradient.png)'}" class="news_bg">
+<div :style="{'background-image':'url(assets/Newsletter.png)'}" class="news_bg">
 <div class="container" id="news">
 <div class="newsletter js-rollover" data-radius="50">
 <svg viewBox="0 0 694 549" width="694" height="549">
@@ -31,13 +31,13 @@ export default {
 
 <style scoped>
 
-.newsletter {
+.newsletter
+{
     position: relative;
     padding-top: 30px;
-    padding-bottom: 180px;
-    padding-left: 220px;
+    padding-bottom: 194px;
+    padding-left: 210px;
     flex-grow: 1;
-    
 }
 
 .news_bg
@@ -50,7 +50,7 @@ background-color: white;
     z-index: 0;
     /* top: -90px; */
     left: 200px;
-    fill: #E6FFFC;
+    fill: #378475;
 }
 
 .newsletter .newsletter-title {
@@ -59,7 +59,7 @@ background-color: white;
     /* font-family: IMFell DW,Times,Georgia,serif; */
     font-weight: 500;
     /* font-style: italic; */
-    color:#1F4F46;
+    color:white;
     /* font-size: 4.0625rem; */
     letter-spacing: -.02em;
     line-height: .9230769231;
@@ -69,7 +69,7 @@ background-color: white;
 }
 
 .newsletter .newsletter-text {
-    color: #1F4F46(17,7,255,.8);
+    color: white;
     padding-left: 180px;
     position: relative;
     margin-top: 70px;

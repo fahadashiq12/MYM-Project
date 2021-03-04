@@ -8,8 +8,8 @@
 <img src="/assets/MYM.png">
 </div>
 <!-- <div class="scroll-top"><a href="#header" class="d-flex align-items-center">SCROLL TO TOP <i class="ms-3 fa fa-chevron-up"></i></a></div> -->
-<div class="d-flex app-link">
-<a href="" class="me-3"><img class="download-apple" src="/assets/AppleStr.png" style="max-width: 190px"></a>
+<div class="d-flex app-link" style="margin-top: 30px">
+<a href=""><img class="download-apple" src="/assets/AppleStr.png" style="max-width: 190px"></a>
 <a href=""><img class="download-app" src="/assets/AndStore.png" style="max-width: 190px"></a>
 </div>
 </div>
@@ -83,7 +83,7 @@
 <div class="col-sm-9 d-flex align-items-left">
 <p style="opacity: 1">© 2021 Airdrop Limited. All rights Reserved. Terms and Conditions. Privacy Policy</p>
 </div>
-<div class="col-sm-3">
+<div class="col-sm-3  d-flex align-items-left">
 <p class="heading theme-black-text">Follow Us</p>
 <a href="" class="me-3"><i class="fa fa-facebook"></i></a>
 <a href="" class="mx-3"><i class="fa fa-twitter"></i></a>
@@ -135,6 +135,7 @@ color: #1F4F46!important;
 font-size: 18px;
 width: 100%;
 float: left;
+text-align: left;
 }
 
 .footer-menu p a
@@ -375,10 +376,19 @@ color: #378475;
 color: ;
 } */
 
-
-@media (min-width:1200px) and (max-width: 2000px) 
+@media (min-width:1505px) and (max-width: 2000px) 
 {
 
+
+
+}
+
+@media (min-width:1200px) and (max-width: 1504px) 
+{
+.px-sm-5 {
+    padding-right: 0rem !important;
+    padding-left: 0rem !important;
+}
 
 }
 

@@ -86,7 +86,7 @@ max-width: 100%;
 .video_box {
     border: 10px Solid #1F4F46;
     border-radius: 35px;
-    height: 380px;
+    height: 460px;
     /* width: 800px; */
     margin-left: 400px;
     margin-top: 100px;
@@ -96,7 +96,7 @@ max-width: 100%;
 .video_box {
     border: 10px Solid #1F4F46;
     border-radius: 35px;
-    height: 380px;
+     height: 460px;
     width: 900px;
     margin-left: 400px;
     margin-top: 100px;

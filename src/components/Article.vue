@@ -176,6 +176,73 @@
 
 
 </div>
+
+<div>
+
+<section class="py-5">
+    <div class="container">
+    <!-- FOR DEMO PURPOSE -->
+     
+      <div class="row">
+
+
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mx-auto">
+              <!-- CUSTOM BLOCKQUOTE -->
+              <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+                  <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+                  <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
+                  <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
+                      <cite title="Source Title">Source Title</cite>
+                  </footer>
+              </blockquote><!-- END -->
+
+            </div>
+       
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mx-auto ">
+
+                <!-- CUSTOM BLOCKQUOTE -->
+                <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+                    <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+                    <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
+                    <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
+                        <cite title="Source Title">Source Title</cite>
+                    </footer>
+                </blockquote><!-- END -->
+
+            </div>
+            
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mx-auto">
+                <!-- CUSTOM BLOCKQUOTE -->
+                <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+                    <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+                    <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
+                    <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
+                        <cite title="Source Title">Source Title</cite>
+                          
+                    </footer>
+                </blockquote><!-- END -->
+            </div>
+
+            <div class="col-xl-3 col-lg-3 col-md-6 col-sm-12 mx-auto">
+                <!-- CUSTOM BLOCKQUOTE -->
+                <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+                    <div class="blockquote-custom-icon bg-info shadow-sm"><i class="fa fa-quote-left text-white"></i></div>
+                    <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
+                    <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
+                        <cite title="Source Title">Source Title</cite>
+                    </footer>
+                </blockquote><!-- END -->
+            </div>
+
+
+      </div>
+
+
+</div>
+</section>
+
+
+</div>
 </template>
 
 <script>
@@ -187,6 +254,59 @@ export default
 </script>
 
 <style scoped>
+
+.article:hover{
+box-shadow: 0px 4px 15px -1px rgb(182, 182, 182);
+border: 0;  
+
+
+
+}
+
+.icon_box
+{
+
+max-width: 50%;
+
+
+}
+
+.blockquote-custom {
+  position: relative;
+  font-size: 1.1rem;
+  
+}
+
+.bg-info {
+    background-color:#378475 !important;
+}
+
+
+.bg-info:hover{
+  
+    -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.text-info {
+    color: #ff1616 !important;
+}
+
+.blockquote-custom-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: -25px;
+  left: 50px;
+  background-color:#378475;
+}
+
+
 
 
 .article_bg
@@ -374,7 +494,7 @@ padding-top: 50px;
 {
 padding-top: 0px;
 padding: 50px;
-margin: 5px;
+margin: 0px;
 }
 
 
