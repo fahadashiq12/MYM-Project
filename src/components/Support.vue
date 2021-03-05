@@ -9,7 +9,8 @@
     </div>
 
 <div class="row contact-support">
-            <div class="col-lg-6 col-md-6 col-sm-12 contact-support-card text-center">
+
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 contact-support-card text-center">
                 <div class="">
                     <img src="/assets/Char1 (4).png" alt="" class="img">
                 </div>
@@ -23,7 +24,7 @@
     
             </div>
           
-            <div class="col-lg-6 col-md-6 col-sm-12 contact-support-card text-center">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 contact-support-card text-center">
                 <div class="contact-support-card__image">
                     <img src="/assets/Char1 (5).png" alt="" class="img">
                 </div>

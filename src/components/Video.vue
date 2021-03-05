@@ -27,7 +27,7 @@
      
        <div class="container-fluid">
        <video autoplay muted loop id="myVideo" style="max-width: 100%">
-        <source src="/assets/OldVideo2.mp4" type="video/mp4">
+        <source src="/assets/Animation.mp4" type="video/mp4">
        </video>
        </div>
 

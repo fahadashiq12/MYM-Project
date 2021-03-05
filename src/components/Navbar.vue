@@ -49,7 +49,7 @@
          
     
         <li class="nav-item icon_style">
-        <a href="#"><div class="login-btn btn"><i class="fa fa-user"></i> Login</div></a>
+        <a href="#"><div class="signup-btn btn"><i class="fa fa-user"></i> Login</div></a>
          <a href="#"><div class="signup-btn btn"><i class="fa fa-user"></i> Sign Up </div></a>
         </li>
       </ul>
@@ -266,11 +266,26 @@ nav.navstyle {
 @media (min-width: 320px) and (max-width: 575px) 
 {
 
-  .navbar-toggler
-{
+.navbar-toggler {
     margin-top: 6px !important;
-    margin-left: auto;
+    margin-left: 100px;
     margin-bottom: 6px !important;
+}
+
+.navbar-nav {
+    display: block;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    margin: 0;
+}
+
+div#navbarSupportedContent {
+    position: unset;
 }
 
 

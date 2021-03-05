@@ -1,4 +1,5 @@
 <template>
+
 <div class="article_bg">
 <div class="container">
 <div class="row">
@@ -9,9 +10,9 @@
 
 <div class="card_style"> 
 <div class="row">  
-<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12">
 <div class="card">                        
-      <div class="card_img"> <img src="/assets/Salad1.png"> </div>
+      <div class="card_img"> <img src="/assets/Image-1.png"> </div>
       <div class="card-body">
         <h4 class="card-title"> Language Learning </h4>
         <hr>
@@ -37,9 +38,9 @@
 </div>
 </div>
 
-<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="card">                        
-                      <div class="card_img"> <img src="/assets/Salad4.png"> </div>
+                      <div class="card_img"> <img src="/assets/Image-1.png"> </div>
                       <div class="card-body">
                         <h4 class="card-title"> Language Learning </h4>
                         <hr>
@@ -65,9 +66,9 @@
                   </div>
 </div>
 
-<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12">
+<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12">
                   <div class="card">                        
-                      <div class="card_img"> <img src="/assets/Salad3.png"> </div>
+                      <div class="card_img"> <img src="/assets/Image-1.png"> </div>
                       <div class="card-body">
                         <h4 class="card-title"> Language Learning </h4>
                         <hr>
@@ -93,93 +94,41 @@
                   </div>
 </div>
 
-
+<div class="col-xxl-3 col-xl-3 col-lg-3 col-md-6 col-sm-12">
+                  <div class="card">                        
+                      <div class="card_img"> <img src="/assets/Image-1.png"> </div>
+                      <div class="card-body">
+                        <h4 class="card-title"> Language Learning </h4>
+                        <hr>
+                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      </div>
+                      <div class="">
+                          <div class="container">
+                              <div class="row pill_Style">                               
+                              <div class="col-lg-7">
+                                  <div class="row">
+                                  <div class="profile">                                    
+                                  </div>                       
+                                  <h6 class="profile_text"><i class="fa fa-eye"> 12 </i>   &nbsp; &nbsp; &nbsp; &nbsp;  <i class="fa fa-comment"> 12 </i> </h6>
+                                  </div>  
+                              </div>
+                              <div class="col-lg-5">
+                                  <div class="pill"> Read More </div>
+                              </div>
+                              </div>
+                              </div>
+                      </div>
+                      
+                  </div>
+</div>
 
 </div>
 </div>
-
-<!-- <div class="row">
-<div class="wrapper">
-    <h2 class="section_title">Recent Articles</h2>
-    
-    <div class="articles">
-      
-      <div class="article">
-          <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12">
-        <div class="preview">
-          <div class=""><a href="#"
-          ><img src="/assets/Image.png" alt="Article Image"/></a></div>
-        </div>
-        <div class="cat photography"><a></a></div>
-        <h6 class=""><a>Midst Set Beast Morning Be Likeness Behold</a></h6>
-          <hr>
-        <p class="description">
-          Upon open their seed. Bearing is fly, midst you'll, good place bring darkness days which
-          own earth made all under.
-        </p>
-        <footer class="article_footer">
-          <span class="author">Tyrone Fowler</span>
-          <span class="read_more"><a>Read More </a></span>
-        </footer>
-      </div>
-      </div>
-      
-      <div class="article ">
-          <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12">     
-        <div class="preview">
-          <div class=""><a href="#"
-          ><img src="/assets/Image-1.png" alt="Article Image"
-          /></a></div>
-        </div>
-        <div class="cat art"><a href="#"></a></div>
-        <h6 class="title"><a>Fish Darkness Fourth Called One A Waters Gathered</a></h6>
-          <hr>
-        <p class="description">
-        Upon open their seed. Bearing is fly, midst you'll, good place bring darkness days which
-          own earth made all under.
-        </p>
-        <footer class="article_footer">
-          <span class="author">Lula Lynch</span>
-          <span class="read_more"><a>Read More</a></span>
-        </footer>
-      </div>
-      </div>
-
-      <div class="article">
-      <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-12 col-sm-12"> 
-        <div class="">
-          <div class=""><a href="#"
-          ><img src="/assets/Image-2.png" alt="Article Image"
-          /></a></div>
-        </div>
-        <div class="cat art"><a href="#"></a></div>
-        <h6 class="title"><a>Good I Lesser Abundantly Was Have Forth</a></h6>
-        <hr>
-        <p class="description">
-          Upon open their seed. Bearing is fly, midst you'll, good place bring darkness days which
-          own earth made all under.
-        </p>
-        <footer class="article_footer">
-          <span class="author">Julie Ballard </span>
-          <span class="read_more"><a>Read More </a></span>
-        </footer>
-      </div>
-      </div>
-
-
-    </div>
-  </div>
-
-</div> -->
+</div>
 </div>
 
 
-
-</div>
-
-<div>
-
-<section class="py-5">
+<section :style="{'background-image':'url(assets/Gradient.png)'}" class="py-5">
     <div class="container">
     <!-- FOR DEMO PURPOSE -->
      
@@ -241,8 +190,6 @@
 </div>
 </section>
 
-
-</div>
 </template>
 
 <script>
@@ -259,15 +206,12 @@ export default
 box-shadow: 0px 4px 15px -1px rgb(182, 182, 182);
 border: 0;  
 
-
-
 }
 
 .icon_box
 {
 
 max-width: 50%;
-
 
 }
 
@@ -301,9 +245,10 @@ max-width: 50%;
   align-items: center;
   justify-content: center;
   position: absolute;
-  top: -25px;
+  top: -25px;  
   left: 50px;
   background-color:#378475;
+  border: 3px solid white;
 }
 
 
@@ -312,13 +257,21 @@ max-width: 50%;
 .article_bg
 {
 
-background-color: whitesmoke; ;
+background-color: whitesmoke; 
+padding-bottom: 40px;
 
 }
 
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+}
+
+.bg-info:hover{
+  
+    -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 
@@ -482,19 +435,18 @@ img {
 }
 
 
-
-
 .article_style
 {
 padding-top: 50px;
 }
 
 
-.card_style
-{
-padding-top: 0px;
-padding: 50px;
-margin: 0px;
+.card_style{
+    padding-top: 0px;
+    padding-bottom: 5px;
+    margin-bottom: 32px;
+    padding: 10px;
+    margin: 0px;
 }
 
 

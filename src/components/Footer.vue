@@ -1,13 +1,15 @@
 <template>
 
 <footer class="position-relative home-footer px-sm-5 py-3">
-  <div class="footer_style">
+<div class="footer_style">
 
 <div class="d-flex justify-content-between pb-3 footer-top-row">
 <div class="mt-2">
 <img src="/assets/MYM.png">
 </div>
-<!-- <div class="scroll-top"><a href="#header" class="d-flex align-items-center">SCROLL TO TOP <i class="ms-3 fa fa-chevron-up"></i></a></div> -->
+
+<div class="scroll-top mt-5"><a href="#firstsection" class="d-flex align-items-center style">SCROLL TO TOP <i class="ms-3 fa fa-chevron-up"></i></a></div>
+
 <div class="d-flex app-link" style="margin-top: 30px">
 <a href=""><img class="download-apple" src="/assets/AppleStr.png" style="max-width: 190px"></a>
 <a href=""><img class="download-app" src="/assets/AndStore.png" style="max-width: 190px"></a>
@@ -64,7 +66,7 @@
 <div class="col-sm-3 col-6">
 <p class="heading theme-black-text mb-3">Contact Us</p>
 
-<p class="mb-0"><a href=""><i class="fa fa-envelope me-2"></i> support@airdropja.com</a></p>
+<!-- <p class="mb-0"><a href=""><i class="fa fa-envelope me-2"></i> support@airdropja.com</a></p> -->
 
 
 <p class="mb-0"><a href=""><i class="fa fa-phone me-2"></i> +1-876-627-1894</a></p>
@@ -138,11 +140,25 @@ float: left;
 text-align: left;
 }
 
+.style
+{
+
+  color: #1F4F46!important;
+
+}
+
+
 .footer-menu p a
 {
 color:#1F4F46!important;
 
 float: left;
+}
+
+a {
+    color: #0d6efd;
+    text-decoration: none;
+    margin-bottom: px;
 }
 
 .footer-menu p a:hover 
@@ -163,7 +179,7 @@ display: block;
 position: relative;
 left: 0;
 bottom: 3px;
-transition: all .4s ease;
+transition: all .3s ease;
 background-color:#1F4F46!important;
 }
 .social-ic {
@@ -409,13 +425,26 @@ color: ;
 @media (min-width:576px) and (max-width: 767px) 
 {
 
+.d-flex.justify-content-between.pb-3.footer-top-row {
+    flex-direction: column;
+}
+
+
+
 }
 
 
 @media (min-width:320px) and (max-width: 575px) 
 {
 
+.d-flex.justify-content-between.pb-3.footer-top-row {
+    flex-direction: column;
+}
 
+.d-flex .app-link
+{
+  flex-direction: column;
+}
 
   
 }
