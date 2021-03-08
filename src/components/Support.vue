@@ -1,5 +1,5 @@
 <template>
-<div :style="{'background-image':'url(assets/Videobg.png)'}" class="image">
+<div :style="{'background-image':'url(assets/Videobg.png)'}" class="image" style="padding-bottom: 50px">
 <div  class="container" id="support">
 <div class="support_bg">
      <div class="row">
@@ -12,7 +12,7 @@
 
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 contact-support-card text-center">
                 <div class="">
-                    <img src="/assets/Char1 (4).png" alt="" class="img">
+                    <img src="/assets/Support3.jpg" alt="" class="img">
                 </div>
                 <div class="contact-support-card__content mt-4 mb-4">
                     <h4> 24/7 Support </h4>
@@ -26,15 +26,15 @@
           
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 contact-support-card text-center">
                 <div class="contact-support-card__image">
-                    <img src="/assets/Char1 (5).png" alt="" class="img">
+                    <img src="/assets/Support1.png" alt="" class="img">
                 </div>
-                <div class="contact-support-card__content mt-4 mb-4">
+                <div class="contact-support-card__content mt-3 mb-3">
                     <h4>Helpline</h4>
                     <p>
                         100+ articles to get the information when you need it.
                     </p>
                 </div>
-                <button type="submit" class="btn_style mt-4" aria-label="Submit Button"> Get Started <span class="icon_style"> <i class="fa fa-angle-right"></i> </span></button>
+                <button type="submit" class="btn_style mt-3" aria-label="Submit Button"> Get Started <span class="icon_style"> <i class="fa fa-angle-right"></i> </span></button>
     
             </div>
             
@@ -99,7 +99,7 @@ color: white;
 
 .contact-support-card__image
 {
-        margin-top: 300px;
+     margin-top: 340px;
 }
 
 

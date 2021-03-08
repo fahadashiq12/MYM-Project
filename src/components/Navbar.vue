@@ -49,8 +49,8 @@
          
     
         <li class="nav-item icon_style">
-        <a href="#"><div class="signup-btn btn"><i class="fa fa-user"></i> Login</div></a>
-         <a href="#"><div class="signup-btn btn"><i class="fa fa-user"></i> Sign Up </div></a>
+        <a href="#"><div class="login-btn btn"><i class="fa fa-user"></i> Login</div></a>
+         <a href="#"><div class="signup-btn btn"><i class="fa fa-user-plus"></i> SignUp </div></a>
         </li>
       </ul>
 

@@ -1,8 +1,8 @@
 <template>
 
-<footer class="position-relative home-footer px-sm-5 py-3">
-<div class="footer_style">
-
+<footer :style="{'background-image':'url(assets/Texture.png)'}" class="position-relative home-footer px-sm-5 py-3">
+<div class="three_layer">
+<div  class="footer_style">
 <div class="d-flex justify-content-between pb-3 footer-top-row">
 <div class="mt-2">
 <img src="/assets/MYM.png">
@@ -83,7 +83,7 @@
 <div class="row m-0 position-relative footer-bottom mt-1 social-ic">
 
 <div class="col-sm-9 d-flex align-items-left">
-<p style="opacity: 1">© 2021 Airdrop Limited. All rights Reserved. Terms and Conditions. Privacy Policy</p>
+<p style="opacity: 1">© 2021 Make Your Meal Limited. All rights Reserved. Terms and Conditions. Privacy Policy</p>
 </div>
 <div class="col-sm-3  d-flex align-items-left">
 <p class="heading theme-black-text">Follow Us</p>
@@ -96,6 +96,7 @@
 <!-- <img src="img/footer-text-1.svg" class="footer-texture">
 <img src="img/footer-text-2.svg" class="footer-texture"> -->
 
+</div>
 </div>
 
 </footer>
@@ -122,7 +123,7 @@ background:white;
 
 .footer-menu 
 {
-padding: 2rem 0;
+padding: 8rem 0;
 z-index: 999;
 }
 
@@ -139,6 +140,17 @@ width: 100%;
 float: left;
 text-align: left;
 }
+
+.three_layer
+{
+
+  animation-name: zoom-fade;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+
+}
+
 
 .style
 {
@@ -406,6 +418,10 @@ color: ;
     padding-left: 0rem !important;
 }
 
+footer{
+    margin: 50px;
+}
+
 }
 
 @media (min-width:992px) and (max-width: 1199px) 
@@ -445,7 +461,6 @@ color: ;
 {
   flex-direction: column;
 }
-
   
 }
 

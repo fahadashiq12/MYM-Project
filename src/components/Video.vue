@@ -80,28 +80,16 @@ max-width: 100%;
     width: 100%;
     /* height: 100%; */
     border-radius: 25px;
-    height: 380px;
+    height: 464px;
 }
+
 
 .video_box {
     border: 10px Solid #1F4F46;
     border-radius: 35px;
-    height: 460px;
-    /* width: 800px; */
-    margin-left: 400px;
-    margin-top: 100px;
-    max-width: 100%;
-    margin-bottom: 40px;
-}
-.video_box {
-    border: 10px Solid #1F4F46;
-    border-radius: 35px;
-     height: 460px;
-    width: 900px;
-    margin-left: 400px;
-    margin-top: 100px;
-    max-width: 100%;
-    margin-bottom: 40px;
+    height: 484px;
+    width: 845px;
+    margin: 30px auto;
 }
 
 .image
