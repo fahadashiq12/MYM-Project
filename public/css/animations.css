@@ -1,0 +1,44 @@
+/********** Setting the fonts section ***************/
+
+
+
+
+
+.flexBackground{
+	position : fixed;
+	height : 100%;
+	width : 100%;
+	background-color : #202125;
+	top : 0;
+	left : 0;
+	
+	background: url(../images/b2.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+	z-index : -1;
+}
+
+.flexBackground canvas{
+	position : relative;
+}
+
+.flexBackground .backCover{
+	height : 100%;
+	width : 100%;
+	background-color : #202125;
+	top : 0;
+	left : 0;
+	position : absolute;
+	background: url(../images/b2cover.png) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
+
+
+
+
+

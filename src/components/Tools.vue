@@ -163,14 +163,11 @@ ol, ul {
     background-size: cover;
 }
 
-
-
 }
 
 
 @media (min-width:320px) and (max-width: 575px) 
 {
-
 
 .tool_section 
 {
@@ -181,7 +178,6 @@ ol, ul {
     background-position: center;
     background-size: cover;
 }
-
 
   
 }

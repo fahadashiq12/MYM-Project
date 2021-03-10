@@ -359,6 +359,23 @@ export default {
 
 
 
+.carousel-control-prev
+{
+    left: -110px;
+}
+
+.carousel-control-next 
+{
+    right: -110px;
+}
+
+.btn_carousel 
+{
+    
+    filter: invert(1);
+    color: black;
+}
+
 .blockquote-custom {
   position: relative;
   font-size: 1.1rem;

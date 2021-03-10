@@ -1,7 +1,11 @@
 <template>
 
-<footer :style="{'background-image':'url(assets/Texture.png)'}" class="position-relative home-footer px-sm-5 py-3">
-<div class="three_layer">
+
+
+<footer :style="{'background-image':'url(assets/Footear2.png)'}" class="position-relative home-footer px-sm-5 py-3">
+<section class="banner-section home-balls">
+<div class="patern-layer-three" style="background-image: url(/assets/Texture4.png)"></div>
+</section>
 <div  class="footer_style">
 <div class="d-flex justify-content-between pb-3 footer-top-row">
 <div class="mt-2">
@@ -87,7 +91,7 @@
 </div>
 <div class="col-sm-3  d-flex align-items-left">
 <p class="heading theme-black-text">Follow Us</p>
-<a href="" class="me-3"><i class="fa fa-facebook"></i></a>
+<a href="" class="me-3 icon"><i class="fa fa-facebook"></i></a>
 <a href="" class="mx-3"><i class="fa fa-twitter"></i></a>
 <a href="" class="mx-3"><i class="fa fa-instagram"></i></a>
 <a href="" class="mx-3"><i class="fa fa-youtube"></i></a>
@@ -96,7 +100,6 @@
 <!-- <img src="img/footer-text-1.svg" class="footer-texture">
 <img src="img/footer-text-2.svg" class="footer-texture"> -->
 
-</div>
 </div>
 
 </footer>
@@ -126,6 +129,47 @@ background:white;
 padding: 8rem 0;
 z-index: 999;
 }
+                        
+section {
+    display: block;
+}
+
+
+.banner-section .patern-layer-three {
+    animation-name: zoom-fade;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: zoom-fade;
+    -webkit-animation-duration: 8s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: zoom-fade;
+}
+
+.home-balls .patern-layer-three {
+    position: absolute !important;
+    left: 0px !important;
+    top: 30px!important;
+    width: 100%!important;
+    height: 85%!important;
+    background-position: center!important;
+    background-repeat: no-repeat !important;
+}
+
+p .heading:hover
+{
+
+color: white;
+
+}
+
+
+.fa fa-facebook:hover
+{
+color: white;
+}
+
 
 .position-relative 
 {
@@ -141,15 +185,7 @@ float: left;
 text-align: left;
 }
 
-.three_layer
-{
 
-  animation-name: zoom-fade;
-  animation-duration: 8s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-
-}
 
 
 .style
