@@ -163,7 +163,7 @@
     </div>
     </div>
     <div class="carousel-item">
-       <div class="row">
+    <div class="row">
     <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-4">
             <div class="card style">
                 <div class="enroll2">
@@ -240,112 +240,25 @@
     </div>
   </div>
   <a class="carousel-control-prev" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
-    <span class="carousel-control-prev-icon btn_carousel" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
+    <span class="carousel-control-prev-icon btn_carousel text-white" aria-hidden="true"></span>
+    <!-- <span class="visually-hidden">Previous</span> -->
   </a>
   <a class="carousel-control-next" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
-    <span class="carousel-control-next-icon btn_carousel" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
+    <span class="carousel-control-next-icon btn_carousel text-white" aria-hidden="true"></span>
+    <!-- <span class="visually-hidden">Next</span> -->
   </a>
 </div>
 
-
-
-
-<!-- <h1 class="txt_style"> Testimonials </h1>
- <p> Here is the customer reviews we consider for all things we have for another </p>
- <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
- <div class="carousel-inner">
- <div class="carousel-item active">
- <div class="row"> 
- <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12">
-            <div class="card style">
-                <div class="enroll2">
-                <div class="row text-center">
-                <div class="col-lg-12 ">
-                <div class="icon_box">
-                        <img src="/assets/img-person1.png">
-                </div>
-                </div>
-
-                </div>
-                    <div class="row text-center" style="padding: 19px">
-                    <div class="col-lg-12">
-                        <h5> Lorem Ipsum   </h5>
-                        <p>
-                            Description is like something we need for.
-                        </p>
-                        <i class="fa fa-quote-left" aria-hidden="true"></i>
-                        <p class="message-client"> Description is like something we need for.Description is like something we need for.Description is like something we need for.</p>
-                    </div>
-                    </div>
-                </div>
-            </div>  
- </div>
-<div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12">
- <div class="card style">
-      <div class="enroll2">
-        <div class="row text-center">
-           <div class="col-lg-12 ">
-             <div class="icon_box">
-                        <img src="/assets/img-person3.png">
-                </div>
-                </div>
-
-                </div>
-                    <div class="row text-center" style="padding: 19px">
-                    <div class="col-lg-12">
-                        <h5> Lorem Ipsum   </h5>
-                        <p>
-                            Description is like something we need for.
-                        </p>
-                        <i class="fa fa-quote-left" aria-hidden="true"></i>
-                        <p class="message-client"> Description is like something we need for.Description is like something we need for.Description is like something we need for.</p>
-                    </div>
-                    </div>
-                </div>
-            </div>  
-    </div>
-    <div class="col-xxl-4 col-xl-4 col-lg-4 col-md-4 col-sm-12">
-     <div class="card style">
-                <div class="enroll2">
-                <div class="row text-center">
-                <div class="col-lg-12 ">
-                <div class="icon_box">
-                        <img src="/assets/img-person2.png">
-                </div>
-                </div>
-
-                </div>
-                    <div class="row text-center" style="padding: 19px">
-                    <div class="col-lg-12">
-                        <h5> Lorem Ipsum   </h5>
-                        <p>
-                            Description is like something we need for.
-                        </p>
-                        <i class="fa fa-quote-left" aria-hidden="true"></i>
-                        <p class="message-client"> Description is like something we need for.Description is like something we need for.Description is like something we need for.</p>
-                    </div>
-                    </div>
-                </div>
-            </div>  
-    </div>
-    </div>
-    </div>
-    </div>   
- </div> -->
 </div>
 </div>
 </div>
 </section>
 
 
-
-
 </template>
 
-<script>
 
+<script>
 
 
 export default {
@@ -362,18 +275,29 @@ export default {
 .carousel-control-prev
 {
     left: -110px;
+   
 }
 
 .carousel-control-next 
 {
     right: -110px;
+    
 }
 
 .btn_carousel 
 {
-    
-    filter: invert(1);
-    color: black;
+filter: invert(1); 
+/* color: black; */
+/* background-color:#378475; */
+/* background-color:#378475 !important; */
+}
+
+.btn_carousel:hover
+{
+filter: invert(1);
+/* background: linear-gradient(90deg, #1F4F46 5%, #55c0ab 190%); */
+/* box-shadow: 1px 1px 6px -2px #378475 !important; */
+border-radius: 250px;
 }
 
 .blockquote-custom {
@@ -389,7 +313,7 @@ export default {
 
 .bg-info:hover{
   
-    -webkit-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
   -ms-transform: scale(1.2);
   transform: scale(1.2);
 }
@@ -415,10 +339,10 @@ export default {
 
 
 
-.btn_carousel
+/* .btn_carousel
 {
    color: #1F4F46;
-}
+} */
 
 
 /* .carousel-control-prev-icon

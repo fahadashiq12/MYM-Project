@@ -1,7 +1,5 @@
 <template>
 
-
-
 <footer :style="{'background-image':'url(assets/Footear2.png)'}" class="position-relative home-footer px-sm-5 py-3">
 <section class="banner-section home-balls">
 <div class="patern-layer-three" style="background-image: url(/assets/Texture4.png)"></div>
@@ -59,12 +57,12 @@
 
 </div>
 <div class="col-sm-3 col-6">
-<p class="heading theme-black-text mb-3">Customer Service</p>
+<p class="heading theme-black-text mb-3">Make your Meal</p>
 
-<p class="mb-0"><a href="">Shipping Calculator</a></p>
+<p class="mb-0"><a href="">Meal Calculator</a></p>
 
 
-<p class="mb-0"><a href="">My Account</a></p>
+<p class="mb-0"><a href="">Previous Meal</a></p>
 
 </div>
 <div class="col-sm-3 col-6">
@@ -89,7 +87,7 @@
 <div class="col-sm-9 d-flex align-items-left">
 <p style="opacity: 1">© 2021 Make Your Meal Limited. All rights Reserved. Terms and Conditions. Privacy Policy</p>
 </div>
-<div class="col-sm-3  d-flex align-items-left">
+<div class="col-sm-3  d-flex align-items-left" style="white-sapce: nowrap;">
 <p class="heading theme-black-text">Follow Us</p>
 <a href="" class="me-3 icon"><i class="fa fa-facebook"></i></a>
 <a href="" class="mx-3"><i class="fa fa-twitter"></i></a>
@@ -136,34 +134,30 @@ section {
 
 
 .banner-section .patern-layer-three {
-    animation-name: zoom-fade;
-    animation-duration: 8s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    -webkit-animation-name: zoom-fade;
-    -webkit-animation-duration: 8s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-name: zoom-fade;
+ animation: mymove 
+ 5s infinite;
 }
 
 .home-balls .patern-layer-three {
     position: absolute !important;
     left: 0px !important;
     top: 30px!important;
-    width: 100%!important;
+    width: 85%!important;
     height: 85%!important;
     background-position: center!important;
     background-repeat: no-repeat !important;
 }
-
+@keyframes mymove {
+0% {top: 0px;}
+50% {top: 20px;transform:scale(1.15);}
+100% {top: 0px;}
+}
 p .heading:hover
 {
 
 color: white;
 
 }
-
 
 .fa fa-facebook:hover
 {
@@ -184,9 +178,6 @@ width: 100%;
 float: left;
 text-align: left;
 }
-
-
-
 
 .style
 {
@@ -209,6 +200,12 @@ a {
     margin-bottom: px;
 }
 
+a:hover
+{
+
+
+}
+
 .footer-menu p a:hover 
 {
 color: #1F4F46;
@@ -220,7 +217,7 @@ width: 100%;
 }
 .footer-menu p a::after {
 content: '';
-height: 1px;
+height: 2px;
 width: 0;
 border-radius: 25px;
 display: block;
@@ -443,6 +440,10 @@ color: ;
 @media (min-width:1505px) and (max-width: 2000px) 
 {
 
+.px-sm-5 {
+    padding-right: 4rem !important;
+    padding-left: 4rem !important;
+}
 
 
 }
@@ -458,10 +459,25 @@ footer{
     margin: 50px;
 }
 
+.heading
+{
+  
+white-space: nowrap;  
+
+}
+
+
 }
 
 @media (min-width:992px) and (max-width: 1199px) 
 {
+
+.heading
+{
+  
+white-space: nowrap;  
+
+}
 
 
 }
@@ -469,6 +485,10 @@ footer{
 @media (min-width:768px) and (max-width: 991px) 
 {
 
+.px-sm-5 {
+    padding-right: 0rem !important;
+    padding-left: 0rem !important;
+}
 
 
 }

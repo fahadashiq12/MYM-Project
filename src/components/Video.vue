@@ -144,6 +144,13 @@ font-weight: bolder;
 @media (min-width:768px) and (max-width: 991px) 
 {
 
+.video_box {
+    border: 10px Solid #1F4F46;
+    border-radius: 35px;
+    height: 484px;
+    width: 715px;
+    margin: 30px auto;
+}
 
 }
 

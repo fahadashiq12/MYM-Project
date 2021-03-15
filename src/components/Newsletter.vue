@@ -127,26 +127,23 @@ background-color: white;
 
 
 
-@media (min-width:576px) and (max-width: 767px) 
-{
-
-.newsletter
-{
-    position: relative;
-    padding-top: 30px;
-    padding-bottom: 180px;
-    padding-left: 0px;
-    flex-grow: 1;
-}
-
-
-}
-
 
 @media (min-width:1200px) and (max-width: 2000px) 
 {
-
-
+.newsletter .newsletter-title {
+    margin-bottom: 40px;
+    margin-top: 70px;
+    /* font-family: IMFell DW,Times,Georgia,serif; */
+    font-weight: 500;
+    /* font-style: italic; */
+    color: white;
+    /* font-size: 4.0625rem; */
+    letter-spacing: -.02em;
+    line-height: .9230769231;
+    position: relative;
+    padding-right: 240px;
+    z-index: 999;
+}
 }
 
 
@@ -171,6 +168,26 @@ background-color: white;
 }
 
 
+.newsletter .newsletter-title {
+    margin-bottom: 40px;
+    margin-top: 90px; 
+    font-weight: 500;
+    color: white;
+    letter-spacing: -.02em;
+    line-height: .9230769231;
+    position: relative;
+    padding-right: 240px;
+    z-index: 999;
+}
+
+.newsletter svg {
+    position: absolute;
+    z-index: 0;
+    left: 165px !important;
+    fill: #378475;
+}
+
+
 
 }
 
@@ -179,70 +196,48 @@ background-color: white;
 @media (min-width:768px) and (max-width: 991px) 
 {
 
-
-.newsletter{
-    position: relative;
-    padding-top: 30px;
-    padding-bottom: 180px;
-    /* padding-left: 220px; */
-    flex-grow: 1;
-}
-
-
-.newsletter svg{
-    position: absolute;
-    z-index: 0;
-    left: 0px;
-    fill: #E6FFFC;
-}
-
-
-
-.newsletter .newsletter-form {
-    position: relative;
-    max-width: 390px;
-    margin-top: 70px;
-    margin-left: 0px !important;
-    z-index: 999;
-}
-
-
 .newsletter .newsletter-text {
     color: #1F4F46(17,7,255,.8);
-    padding-left: 0px !important; 
+    padding-left: 0px !important;
     position: relative;
     margin-top: 70px;
     z-index: 999;
     max-width: 650px;
 }
 
+.newsletter .newsletter-form {
+    position: relative;
+    max-width: 390px;
+    margin-top: 70px;
+    margin-left: 60px !important;
+    z-index: 999;
+}
 
 
 .newsletter .newsletter-title {
     margin-bottom: 40px;
-    margin-top: 55px;
-    /* font-family: IMFell DW,Times,Georgia,serif; */
+    margin-top: 90px; 
     font-weight: 500;
-    /* font-style: italic; */
-    color: #1F4F46;
-    /* font-size: 4.0625rem; */
+    color: white;
     letter-spacing: -.02em;
     line-height: .9230769231;
     position: relative;
-    padding-right: 255px !important;
+    padding-right: 240px;
     z-index: 999;
 }
 
 
 
 
-
-
+.newsletter svg {
+    position: absolute;
+    z-index: 0;
+    left: 0px !important;
+    fill: #378475;
 }
 
 
-
-
+}
 
 
 

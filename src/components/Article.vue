@@ -142,7 +142,7 @@
                     <i class="bi bi-file-earmark-text text-white" style="padding-bottom: 6px"></i>
                     </div>
                   <div class="card_img"> <img src="/assets/Image-1.png"> </div>
-                  <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
+                  <p class="mb-0 mt-2 font-italic" style="text-align: center;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
                   <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
                       <cite title="Source Title">Source Title</cite>
                   </footer>
@@ -156,7 +156,7 @@
                 <blockquote class="blockquote blockquote-custom bg-white p-2 shadow rounded">
                     <div class="blockquote-custom-icon bg-info shadow-sm"><i class="bi bi-file-earmark-text text-white" style="padding-bottom: 6px"></i></div>
                     <div class="card_img"> <img src="/assets/Image-1.png"> </div>
-                    <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
+                    <p class="mb-0 mt-2 font-italic" style="text-align: center;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
                     <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
                         <cite title="Source Title">Source Title</cite>
                     </footer>
@@ -169,7 +169,7 @@
                 <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
                     <div class="blockquote-custom-icon bg-info shadow-sm"><i class="bi bi-file-earmark-text text-white" style="padding-bottom: 6px"></i></div>
                     <div class="card_img"> <img src="/assets/Image-1.png"> </div>
-                    <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
+                    <p class="mb-0 mt-2 font-italic" style="text-align: -webkit-left;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
                     <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
                         <cite title="Source Title">Source Title</cite>
                           
@@ -182,7 +182,7 @@
                 <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
                   <div class="card_img"> <img src="/assets/Image-1.png"> </div>
                   <div class="blockquote-custom-icon bg-info shadow-sm"><i class="bi bi-file-earmark-text text-white" style="padding-bottom: 6px"></i></div>
-                  <p class="mb-0 mt-2 font-italic">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
+                  <p class="mb-0 mt-2 font-italic" style="text-align: -webkit-left;">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo <a href="#" class="text-info">@consequat</a>."</p>
                   <footer class="blockquote-footer pt-4 mt-4 border-top">Someone famous in
                       <cite title="Source Title">Source Title</cite>
                   </footer>
@@ -266,16 +266,6 @@ padding-bottom: 6px;
 }
 
 
-.carousel-control-next 
-{
-    right: -152px;
-}
-
-.btn_carousel 
-{
-    color: #ff0101;
-    filter: invert;
-}
 
 .article_bg
 {

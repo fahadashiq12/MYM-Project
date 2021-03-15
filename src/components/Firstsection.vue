@@ -8,7 +8,7 @@
     <div class="col-xxl-6 col-xl-6 col-lg-12 col-md-12 col-sm-12">
     <h1> Simple & <span class="text_style"> Easy <br> to Use  </span>  </h1>
     <p class="p_style mt-4">  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.  Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-    <button type="submit" class="btn_style mt-4" aria-label="Submit Button"> Get Started <span class="icon_style"> <i class="fa fa-angle-right"></i> </span></button>
+    <button type="submit" class="btn_style mt-4" aria-label="Submit Button"> Get Started <span class="icon_style"> <i class="fa fa-angle-right"></i> </span></button>   
     </div>
     </div>
     </div>
@@ -27,6 +27,9 @@ export default
 </script>
 
 <style scoped>
+
+
+
 
   .image 
   {

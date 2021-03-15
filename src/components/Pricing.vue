@@ -169,7 +169,7 @@ text-align: right;
     padding: 5px;
     display: inline-block;
     padding-left: 20px;
-    color: black;
+    color: rgb(255, 255, 255);
   }
 
   .icon_style

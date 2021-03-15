@@ -12,7 +12,7 @@
 
             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 contact-support-card text-center">
                 <div class="">
-                    <img src="/assets/Support3.jpg" alt="" class="img">
+                    <img src="/assets/IT1 (2).png" alt="" class="img">
                 </div>
                 <div class="contact-support-card__content mt-4 mb-4">
                     <h4> 24/7 Support </h4>

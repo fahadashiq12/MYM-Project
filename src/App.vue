@@ -123,19 +123,25 @@ font-weight: bolder;
     display: inline-block!important;
     padding: 10px 15px!important;
     box-shadow: 1px 1px 6px -2px rgb(161 161 161)!important;
-    background-color: #efefef!important;
+    background: linear-gradient(90deg, #1F4F46 5%, #55c0ab 190%);
+    color: white;
   }
  .btn_style:focus
   {
     border: 0 !important;
     outline: none;
   }
-  button:hover
+
+
+button:hover
 {
-  background-color: #1F4F46!important;
+  
+  background: linear-gradient(142deg, #1F4F46 10%, #55c0ab 65%);
   box-shadow: 4px 2px 3px rgb(161, 161, 161)!important;
   color: white!important;
 }
+
+
 @media (min-width:1200px) and (max-width: 2000px) 
 {
 .style 
